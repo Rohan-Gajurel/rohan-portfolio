@@ -27,13 +27,16 @@
 .services-format{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
     padding: 60px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
     cursor: pointer;
+    height: 100%;
+    min-height: 450px;
+    box-sizing: border-box;
 }
 
 
@@ -42,6 +45,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
     margin-bottom: 80px;
+    align-items: stretch;
+    grid-auto-rows: 1fr;
 }
 
 
@@ -63,14 +68,21 @@
     color: #d4d4d4;
     font-size: 24px;
     line-height: 40px;
-    max-width: 300px;
+    max-width: 100%;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 
 .services-readmore{
     display: flex;
     gap:20px;
     align-items: center;
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 
@@ -103,7 +115,8 @@
     .services-format{
         gap: 20px;
         padding: 32px;
-
+        min-height: 400px;
+        box-sizing: border-box;
     }
     
     .services-format h2{
@@ -114,7 +127,14 @@
     .services-format p{
         font-size: 18px;
         line-height: 32px;
-        max-width: 300px;
+        max-width: 100%;
+        flex: 1;
+        min-height: 0;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+        -webkit-box-orient: vertical;
     }
     
     .services-readmore img{
@@ -124,6 +144,8 @@
     .services-container{
         grid-template-columns:1fr 1fr ;
         gap: 30px;
+        align-items: stretch;
+        grid-auto-rows: 1fr;
     }
     
 
