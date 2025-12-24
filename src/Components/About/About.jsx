@@ -14,8 +14,8 @@ const About = () => {
             <div className="about-left">
             <img src={profile_img} alt="" />
             </div>
-            <div className="about-right"><div className="about_para"><p>I am an exprinced Frontend Developer with over a decade of professional expertise in the field. Throughtout my career, I have had the  privilege of collabrating with prestigious in the prestigious organization  contributing to their success and growth.</p>
-            <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+            <div className="about-right"><div className="about_para"><p>I am an aspiring Full-Stack Developer with a strong foundation in web development technologies. I am eager to learn and grow in a professional environment, bringing fresh perspectives and a passion for creating innovative solutions.</p>
+            <p>My enthusiasm for development drives me to continuously learn new technologies and contribute meaningfully to projects. I am excited about the opportunity to work alongside experienced professionals and gain valuable industry experience.</p>
             </div>
             <div className="about-skills"><div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}} />
             </div>
@@ -23,25 +23,25 @@ const About = () => {
             </div>
             <div className="about-skill"><p>Javascript</p><hr style={{width:"60%"}} /></div>
             <div className="about-skill"><p>PHP</p><hr style={{width:"50%"}}/>
-            <div className="about-skill"><p>PHP</p><hr style={{width:"80%"}}/>
+            <div className="about-skill"><p>Python/Django</p><hr style={{width:"80%"}}/></div>
             </div>
             </div>
             </div>
         </div>
         <div className="about-achivements"> 
         <div className="about-achivement"> 
-            <h1>10+</h1>
-            <p>YEARS OF EXPERINCE</p>
-        </div>
-        <hr />
-        <div className="about-achivement"> 
-            <h1>90+</h1>
+            <h1>5+</h1>
             <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
         <div className="about-achivement"> 
-            <h1>50+</h1>
-            <p>HAPPY CLIENTS</p>
+            <h1>5+</h1>
+            <p>TECHNOLOGIES MASTERED</p>
+        </div>
+        <hr />
+        <div className="about-achivement"> 
+            <h1>100%</h1>
+            <p>DEDICATED TO LEARN</p>
         </div>
         </div>
 
